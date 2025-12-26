@@ -55,6 +55,30 @@ Shared helper files include:
 - Normalized vs. non-normalized polynomial chaos: the “Normalized” scripts expect Hermite norms loaded from `norm_squared*.mat`. Be sure that the file suffix (`_O11_D1`, `030003`, etc.) matches the `(order, dimension)` pair configured at the top of the solver.
 - The Monte Carlo and NISP scripts often loop over ~10k–50k samples. Adjust `n`, `n_sample`, or `num_qd` for quicker smoke tests when validating new setups.
 
+## Reference
+
+> **[Scalable Domain Decomposition Methods for Nonlinear and Time-Dependent Stochastic Systems](https://doi.org/10.22215/etd/2023-15817)**
+
+**Authors:** Vasudevan, Padillath and Sharma, Sudhi  
+**Institution:** Carleton University (2023)  
+**DOI:** [10.22215/etd/2023-15817](https://doi.org/10.22215/etd/2023-15817)
+
+<details>
+<summary><b>Click to expand BibTeX citation</b></summary>
+
+```bibtex
+@phdthesis{vasudevan2023scalable,
+  title={Scalable Domain Decomposition Methods for Nonlinear and Time-Dependent Stochastic Systems},
+  author={Vasudevan, Padillath and Sharma, Sudhi},
+  year={2023},
+  school={Carleton University},
+  doi={10.22215/etd/2023-15817}
+}
+\```
+</details>
+
+
+
 ## Questions?
 Contact : Sudhi Sharma P V  
 Email: sudhisharmapadillath@gmail.com
