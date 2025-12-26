@@ -2,6 +2,12 @@
 
 Collection of MATLAB prototypes for forward uncertainty quantification (UQ) of a Poisson diffusion problem with random material properties. Each folder contains a self‑contained workflow that assembles finite‐element operators, propagates lognormal/gaussian uncertainty via stochastic spectral finite element methods (SSFEM), and compares those solutions to Monte Carlo surrogates.
 
+
+<img width="711" height="890" alt="forward_uq2" src="https://github.com/user-attachments/assets/bd7ebb96-d7aa-4825-884c-dcf7b0c71489" />
+
+
+<img width="1010" height="817" alt="forward_UQ" src="https://github.com/user-attachments/assets/69004248-6b9f-4795-8f6b-b1dd2b27d8ac" />
+
 ## Repository Overview
 - `Intrusive` — Intrusive SSFEM for random variables. Key scripts: `ssfem_Intrusive.m`, `AssembleMatrix_ss.m`, `AssembleVector_ss.m`, `Poisson_ss.m`. Includes pre/post-processing data (`*.mat`, `.fig`) plus gmsh meshes under `mac/` and `source/`.
 - `NISP` — Non-intrusive spectral projection (Monte Carlo and quadrature variants). Core drivers are `ssfem_NISP.m`, `ssfem_NISP_quadrature.m`, and `Normalized_ssfem_NISP_quadrature.m`; helper PDE definitions live beside gmsh utilities (`ExtractGmsh.m`, `square_refined.m`).
